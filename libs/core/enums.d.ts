@@ -1,6 +1,5 @@
-declare const enum Direction {
-    //% block=left
-    Left,
-    //% block=right
-    Right
+// Auto-generated. Do not edit.
+declare namespace led {
 }
+
+// Auto-generated. Do not edit. Really.

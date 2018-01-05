@@ -3,10 +3,13 @@
     "description": "A target sample for PXT",
     "files": [
         "README.md",
+        "pxt.h",
+        "led.cpp",
+        "dal.d.ts",
         "pxt-core.d.ts",
         "pxt-helpers.ts",
         "enums.d.ts",
-        "sims.d.ts",
+        "shims.d.ts",
         "ns.ts"
     ],
     "testFiles": [

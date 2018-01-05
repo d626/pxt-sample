@@ -1,0 +1,21 @@
+#include "pxt.h"
+
+
+//% color=#5C2D91 weight=97 icon="\uf205"
+namespace led {
+
+    /**
+     * Turn on the specified LED using x, y coordinates (x is horizontal, y is vertical). (0,0) is upper left.
+     * @param x the horizontal coordinate of the LED starting at 0
+     * @param y the vertical coordinate of the LED starting at 0
+     */
+    //% help=led/plot weight=78
+    //% blockId=device_plot block="plot|x %x|y %y" blockGap=8
+    //% parts="ledmatrix"
+    //% x.min=0 x.max=4 y.min=0 y.max=4
+    void plot(int x, int y) {
+      uBit.display.image.setPixelValue(x, y, 0xff);
+    }
+
+   
+}
