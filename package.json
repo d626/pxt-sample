@@ -1,6 +1,6 @@
 {
-  "name": "pxt-sample",
-  "version": "1.0.17",
+  "name": "pxt-thingy",
+  "version": "0.0.1",
   "description": "sample target for PXT",
   "keywords": [
     "JavaScript",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Microsoft/pxt-sample.git"
+    "url": "git+https://github.com/d626/pxt-sample.git"
   },
   "author": "",
   "license": "MIT",

@@ -28,6 +28,7 @@
   "sprites|block": "sprites",
   "turtle.forward|block": "forward|steps %steps",
   "turtle.onBump|block": "on bump",
+  "turtle.toOrigin|block": "Move to origin",
   "turtle.turn|block": "turn %direction|by %angle degrees",
   "turtle|block": "turtle",
   "{id:category}Array": "Array",

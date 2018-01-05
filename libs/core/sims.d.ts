@@ -27,6 +27,13 @@ declare namespace turtle {
     //% shim=turtle::onBump
     function onBump(handler: () => void): void;
 
+    /**
+     * Moves the turtle to the origin
+     */
+    //% blockId=toOrigin block="Move to origin"
+    //% shim=turtle::toOrigin
+    function toOrigin(): void;
+
 }
 declare namespace loops {
     /**

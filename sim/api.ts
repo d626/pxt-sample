@@ -38,6 +38,15 @@ namespace pxsim.turtle {
 
         b.bus.listen("Turtle", "Bump", handler);
     }
+
+    /**
+     * Moves the turtle to the origin
+     */
+    //% blockId=toOrigin block="Move to origin"
+    export function toOrigin() {
+        board().sprite.x = 0;
+        board().sprite.y = 0;
+    }
 }
 
 namespace pxsim.loops {

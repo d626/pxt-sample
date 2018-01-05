@@ -1,7 +1,7 @@
 {
-    "id": "sample",
-    "name": "sample",
-    "title": "MakeCode Editor Sample",
+    "id": "thingy",
+    "name": "Thingy52",
+    "title": "Thingy Editor Sample",
     "corepkg": "core",
     "cloud": {
         "workspace": false,
