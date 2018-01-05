@@ -56,5 +56,17 @@
         "monacoColors": {
             "editor.background": "#ecf0f1"
         }
+    },
+    "compile": {
+        "isNative": true,
+        "hasHex": true,
+        "useUF2": false        
+    },
+    "compileService": {
+        "buildEngine": "yotta",
+        "githubCorePackage": "lancaster-university/microbit",
+        "yottaTarget": "bbc-microbit-classic-gcc",
+        "gittag": "v2.0.0-rc11",
+        "serviceId": "microbit"
     }
 }
